@@ -1,4 +1,70 @@
-body{
+body {
 	background-color: #fefff8;
 	margin:0;
+}
+#header {
+	width: calc(100% - 100px);
+	min-width: 800px;
+	max-width: 1400px;
+	margin: auto;
+	height: 160px;
+	padding-top: 10px;
+}
+
+#linkBar {
+	float: right;
+	width: 300px;
+}
+#linkBar a {
+	background-color: #bbb;
+	font-size: 36px;
+	float: right;
+	text-decoration: none;
+	color: #ffffff;
+	margin: 2px;
+	padding: 3px;
+}
+#linkBar a:hover{
+	background-color: #ddd;
+}
+#content {
+	height: 100%;
+	width: calc(100% - 100px);
+	min-width: 800px;
+	max-width: 1400px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#box1 {
+	border: 2px solid #000;
+	width: calc(50% - 64px);
+	height: auto;
+	margin: 20px;
+	float: left;
+	padding: 10px
+}
+
+#box2 {
+	border: 2px solid #000;
+	width: calc(50% - 44px);
+	height: 200px;
+	margin: 20px;
+	float: left;
+}
+
+#box3 {
+	border: 2px solid #000;
+	width: calc(50% - 44px);
+	height: 200px;
+	margin: 20px;
+	float: left;
+}
+
+#box4 {
+	border: 2px solid #000;
+	width: calc(100% - 44px);
+	height: 200px;
+	margin: 20px;
+	float: left;
 }
